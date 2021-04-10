@@ -8,6 +8,13 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+/**
+ * Author: Bathi Ntshinga
+ * Class: Part Time
+ * Student number: 214198227
+ * Class Description: Menu screen
+ */
+
 public class Menu extends AppCompatActivity {
     Button btn1, btn2,btn3, btn4;
     TextView textView1,textView2,textView3;

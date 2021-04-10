@@ -4,6 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+/**
+ * Author: Bathi Ntshinga
+ * Class: Part Time
+ * Student number: 214293939
+ * Class Description: Calculation screen
+ */
 public class Calculation extends AppCompatActivity {
 
     @Override

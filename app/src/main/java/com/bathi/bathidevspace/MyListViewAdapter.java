@@ -15,14 +15,14 @@ import android.widget.TextView;
 
 public class MyListViewAdapter extends ArrayAdapter<String> {
     private final Activity context;
-    private final String[] proNames;
-    private final Integer[] proImages;
+    private final String[] myNames;
+    private final Integer[] myImages;
 
     public MyListViewAdapter(Activity context, String[] ProNames, Integer[] ProImages) {
         super(context, R.layout.activity_my_list_view, ProNames);
         this.context = context;
-        this.proNames = MyDevProfile.proNames;
-        this.proImages = MyDevProfile.proImages;
+        this.myNames = MyDevProfile.myNames;
+        this.myImages = MyDevProfile.myImages;
 
     }
 
@@ -33,8 +33,8 @@ public class MyListViewAdapter extends ArrayAdapter<String> {
         View rowView = layoutInflater.inflate(R.layout.activity_my_list_view, null, true);
         TextView textTitle = rowView.findViewById(R.id.textView7);
         ImageView imageView = rowView.findViewById(R.id.imageView2);
-        textTitle.setText(proNames[position]);
-        imageView.setImageResource(proImages[position]);
+        textTitle.setText(myNames[position]);
+        imageView.setImageResource(myImages[position]);
         return rowView;
     }
 }

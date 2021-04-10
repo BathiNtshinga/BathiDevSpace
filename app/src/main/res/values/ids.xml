@@ -21,4 +21,7 @@
     <item name="imageView2" type="id" />
     <item name="btnAboutMe" type="id" />
     <item name="imageView" type="id" />
+    <item name="imageButton3" type="id" />
+    <item name="editText1" type="id" />
+    <item name="imageButton2" type="id" />
 </resources>

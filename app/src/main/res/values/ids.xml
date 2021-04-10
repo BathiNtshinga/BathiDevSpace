@@ -9,4 +9,6 @@
     <item name="btnCalculation" type="id" />
     <item name="btnAboutMe" type="id" />
     <item name="btnMyDevProfile" type="id" />
+    <item name="editText1" type="id" />
+    <item name="btnNext" type="id" />
 </resources>

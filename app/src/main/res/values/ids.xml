@@ -11,4 +11,6 @@
     <item name="btnMyDevProfile" type="id" />
     <item name="editText1" type="id" />
     <item name="btnNext" type="id" />
+    <item name="imageView2" type="id" />
+    <item name="textView7" type="id" />
 </resources>
